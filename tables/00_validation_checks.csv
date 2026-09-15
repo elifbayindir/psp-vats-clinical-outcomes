@@ -1,0 +1,8 @@
+check,passed,observed
+Expected row count,True,650
+Unique record identifiers,True,650
+Age between 18 and 39,True,0
+Nonnegative postoperative durations,True,0
+Event time does not exceed follow-up,True,0
+Recurrence treatment requires recurrence,True,0
+No smoking implies zero pack-years,True,0

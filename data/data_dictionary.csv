@@ -1,0 +1,28 @@
+variable,definition,unit_or_type
+synthetic_id,Generated record identifier,text
+surgery_period,Two-year calendar band,categorical
+age_years,Age at operation,years
+sex,Recorded sex,categorical
+side,Operated hemithorax,categorical
+indication,Recurrent pneumothorax or prolonged air leak,categorical
+symptomatic,Any presenting symptom,binary
+chest_pain,Chest pain at presentation,binary
+dyspnea,Dyspnea at presentation,binary
+smoking_history,History of smoking,binary
+pack_years,Cumulative tobacco exposure,pack-years
+previous_tube_thoracostomy,Tube thoracostomy during an earlier admission,binary
+tube_first_episode,Tube treatment at first episode,binary
+tube_current_admission,Tube treatment during operative admission,binary
+previous_episode_pattern,Relationship to prior pneumothorax episode,categorical
+bleb_status,Macroscopic bleb or bulla finding,categorical
+multiple_wedge,More than one wedge resection area,binary
+postop_air_leak_days,Postoperative air-leak duration,days
+chest_tube_days,Time to postoperative chest-tube removal,days
+length_of_stay_days,Postoperative hospital stay,days
+postop_complication,Recorded postoperative complication,binary
+follow_up_months,Available postoperative follow-up,months
+time_to_event_months,Time to ipsilateral recurrence or censoring,months
+ipsilateral_recurrence,Recurrence on the operated side,binary
+contralateral_recurrence,Recurrence on the opposite side,binary
+recurrence_tube_required,Tube required after ipsilateral recurrence,binary
+reoperation_after_recurrence,Reoperation after ipsilateral recurrence,binary

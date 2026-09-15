@@ -1,0 +1,12 @@
+{
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "random_seed": 20260915,
+  "records": 650,
+  "events": 177,
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1"
+  }
+}
