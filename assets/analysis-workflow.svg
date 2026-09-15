@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320" role="img" aria-labelledby="title description">
+  <title id="title">Clinical outcomes analysis workflow</title>
+  <desc id="description">Five connected stages move from cohort design through validation, group comparison, survival modeling, and prediction with sensitivity analysis.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7893a2"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17394d" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="320" rx="20" fill="#f6f9fb"/>
+  <text x="70" y="54" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#17394d">Analysis workflow</text>
+  <text x="70" y="84" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5f7180">Each method answers a separate clinical or statistical question</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="120" width="220" height="120" rx="14" fill="#ffffff" stroke="#b9d8e8" stroke-width="2"/>
+    <rect x="330" y="120" width="220" height="120" rx="14" fill="#ffffff" stroke="#b9d8e8" stroke-width="2"/>
+    <rect x="590" y="120" width="220" height="120" rx="14" fill="#ffffff" stroke="#b9d8e8" stroke-width="2"/>
+    <rect x="850" y="120" width="220" height="120" rx="14" fill="#ffffff" stroke="#b9d8e8" stroke-width="2"/>
+    <rect x="1110" y="120" width="220" height="120" rx="14" fill="#ffffff" stroke="#e1b5a7" stroke-width="2"/>
+  </g>
+
+  <g stroke="#7893a2" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="290" y1="180" x2="322" y2="180"/>
+    <line x1="550" y1="180" x2="582" y2="180"/>
+    <line x1="810" y1="180" x2="842" y2="180"/>
+    <line x1="1070" y1="180" x2="1102" y2="180"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="180" y="158" font-size="19" font-weight="700" fill="#214f68">Cohort design</text>
+    <text x="180" y="188" font-size="15" fill="#5f7180">One row per operation</text>
+    <text x="180" y="212" font-size="15" fill="#5f7180">Defined outcomes</text>
+
+    <text x="440" y="158" font-size="19" font-weight="700" fill="#214f68">Validation</text>
+    <text x="440" y="188" font-size="15" fill="#5f7180">Logical checks</text>
+    <text x="440" y="212" font-size="15" fill="#5f7180">Cohort description</text>
+
+    <text x="700" y="158" font-size="19" font-weight="700" fill="#214f68">Comparison</text>
+    <text x="700" y="188" font-size="15" fill="#5f7180">Effect sizes</text>
+    <text x="700" y="212" font-size="15" fill="#5f7180">Adjusted count model</text>
+
+    <text x="960" y="158" font-size="19" font-weight="700" fill="#214f68">Recurrence</text>
+    <text x="960" y="188" font-size="15" fill="#5f7180">Kaplan-Meier</text>
+    <text x="960" y="212" font-size="15" fill="#5f7180">Cox regression</text>
+
+    <text x="1220" y="158" font-size="19" font-weight="700" fill="#9b4f36">Evaluation</text>
+    <text x="1220" y="188" font-size="15" fill="#6f625d">Prediction and calibration</text>
+    <text x="1220" y="212" font-size="15" fill="#6f625d">Sensitivity and planning</text>
+  </g>
+</svg>
